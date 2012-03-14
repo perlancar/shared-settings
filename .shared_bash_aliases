@@ -1,0 +1,44 @@
+# dah jarang dipake
+#alias x='xine'
+#alias xn='xine -A null'
+
+alias m='mplayer -fixed-vo -osdlevel 3 -geometry 100%:0'
+alias mf='m -fs'
+alias mn='m -nosound'
+# jarang dipake
+#alias ms='m -xy 0.5'
+
+alias rsync1='rsync -e "ssh -c arcfour" -Pavz'
+# jarang dipake
+#alias rsync1s='rsync -e "ssh -c arcfour" -az'
+alias rsync-nonmovie='rsync1 --exclude "*.flv" --exclude "*.rmvb" --exclude "*.mpg" --exclude "*.MPG" --exclude "*.mpeg" --exclude "*.AVI" --exclude "*.avi" --exclude "*.mpg" --exclude "*.mp4" --exclude "*.mkv" --exclude "*.wmv" --exclude "*.WMV" --exclude "*.ogm" --exclude "*.dat" --exclude "*.DAT" --exclude "*.rm" --exclude "*.VOB" --exclude "*.vob" --exclude "*.mov" --exclude "*.divx"'
+
+alias s=grep-dl
+
+alias ls="'ls' --color=tty -F"
+alias grep="'grep' --color=auto"
+
+alias gs="git status"
+alias gl="git log --abbrev-commit"
+alias gd="git diff"
+# jarang dipake
+#alias ga="git add"
+alias gb="git branch"
+alias gc="git commit"
+alias gco="git checkout"
+
+alias e="emacsclient -t"
+
+# 2011-02-11 - baru tau kalo emacs itu bisa console juga, gak harus instal emacs-nox
+alias emacs="'emacs' -nw"
+alias wemacs="'emacs'"
+
+# 2011-06-30
+# Class::Autouse suka bermasalah? mis dengan DateTime
+#alias perl1='perl -Ilib -MClass::Autouse=:superloader -MLog::Any::App -MData::Dump'
+alias perl1='perl -Ilib -MLog::Any::App -MData::Dump'
+
+alias db=delbackups
+
+# 2012-01-31
+alias pod=perlzonji
