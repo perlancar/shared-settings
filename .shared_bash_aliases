@@ -41,4 +41,4 @@ alias perl1='perl -Ilib -MLog::Any::App -MData::Dump::Color'
 alias db=delbackups
 
 # 2012-01-31
-alias pod=perlzonji
+alias pod=perlfind
