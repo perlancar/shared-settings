@@ -37,6 +37,7 @@ alias wemacs="'emacs'"
 # Class::Autouse suka bermasalah? mis dengan DateTime
 #alias perl1='perl -Ilib -MClass::Autouse=:superloader -MLog::Any::App -MData::Dump::Color'
 alias perl1='perl -Ilib -MLog::Any::App -MData::Dump::Color'
+alias perl1ca="perl1 -MCarp::Always::Color"
 
 alias db=delbackups
 
