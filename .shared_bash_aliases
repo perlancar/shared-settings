@@ -44,3 +44,6 @@ alias db=delbackups
 
 # 2012-01-31
 alias pod=perlfind
+
+# 2013-09-26
+alias gv=gwenview
