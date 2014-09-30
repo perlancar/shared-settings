@@ -3,6 +3,7 @@
 #alias xn='xine -A null'
 
 alias m='mplayer -fixed-vo -osdlevel 3 -geometry 100%:0'
+alias m0='mplayer -fixed-vo -osdlevel 3'
 alias mf='m -fs'
 alias mn='m -nosound'
 # jarang dipake
