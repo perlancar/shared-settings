@@ -14,7 +14,7 @@ alias rsync1='rsync -e "ssh -c arcfour" -Pavz'
 #alias rsync1s='rsync -e "ssh -c arcfour" -az'
 alias rsync-nonmovie='rsync1 --exclude "*.flv" --exclude "*.rmvb" --exclude "*.mpg" --exclude "*.MPG" --exclude "*.mpeg" --exclude "*.AVI" --exclude "*.avi" --exclude "*.mpg" --exclude "*.mp4" --exclude "*.mkv" --exclude "*.wmv" --exclude "*.WMV" --exclude "*.ogm" --exclude "*.dat" --exclude "*.DAT" --exclude "*.rm" --exclude "*.VOB" --exclude "*.vob" --exclude "*.mov" --exclude "*.divx"'
 
-alias s=grep-dl
+alias s=grep-my-media-files
 
 alias ls="'ls' --color=tty -F"
 alias grep="'grep' --color=auto"
