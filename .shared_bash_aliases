@@ -21,6 +21,7 @@ alias grep="'grep' --color=auto"
 
 alias gs="git status"
 alias gl="git log --abbrev-commit"
+alias gl1="git log --abbrev-commit --format=oneline"; # 2017-08-04
 alias gd="git diff"
 # jarang dipake
 #alias ga="git add"
