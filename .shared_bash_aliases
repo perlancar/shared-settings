@@ -29,7 +29,8 @@ alias gb="git branch"
 alias gc="git commit"
 alias gco="git checkout"
 
-alias e="emacsclient -a= -c"
+#alias e="emacsclient -a= -c"
+alias e="emacsclient -a="
 
 # 2011-02-11 - baru tau kalo emacs itu bisa console juga, gak harus instal emacs-nox
 alias emacs="'emacs' -nw"
