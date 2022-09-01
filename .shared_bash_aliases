@@ -50,3 +50,6 @@ alias pod=perlfind
 
 # 2013-09-26
 alias gv=gwenview
+
+# 2022-09-01
+sel=orgadb-sel
